@@ -1,8 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:ital,wght@1,500&family=Rock+Salt&family=Sriracha&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:ital,wght@1,500&family=Rock+Salt&family=Sriracha&display=swap');
 
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,11 +13,11 @@
 nav {
     
     background-color: rgba(128, 128, 128, 0.407);
-    
+
 }
 
 .navContent {
-    
+
     font-weight: bold;
 }
 
@@ -57,43 +56,79 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
-
-
 
 .pic1 {
+    position: absolute;
+    top: 10vh;
+    right: 20vh;
+    width: 80vh;
+    z-index: 1;
+
     
-    width: 80%;
-    
+    transition: top 1s ease-in-out .3s,right 1s ease-in-out .3s,width 1s ease-in-out .3s ;
+    transition: all 4s ease-in-out;
 }
+
+
+.picture:hover #pic1{
+    top: 7vh;
+    right: 17vh;
+    width: 85vh;     
+    transform: rotate(360deg);
+}
+
+
+
 
 .pic2 {
+    position: relative;
+    width: 80%;
+    z-index: 2;
 
-    width: 90%;
+    transition: width 2s ease-in-out .3s;
 
 
 }
-.headingContent{
+
+
+.picture:hover #pic2{
+    width: 60%;
+}
+
+
+
+.headingContent {
     text-align: center;
 }
-.headingContent1{
-    font-family: 'Rock Salt',Arial, sans-serif ;
+
+.headingContent1 {
+    font-family: 'Rock Salt', Arial, sans-serif;
     margin: 5% 0 10% 0;
-    color: white;    
-    
+    color: white;
+
 }
-.headingContent1 h1{
+
+.headingContent1 h1 {
     font-size: 3.2rem;
-    
+
 }
-.headingContent2{
-    font-family: 'Roboto',Arial, sans-serif;
-    margin: 5% 0 5% 0;        
-    
+
+.headingContent2 {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 5% 0 5% 0;
+
 }
 
 @media(max-width:767px) {
     .picture {
+        display: none;
+    }
+
+}
+@media(max-width:991px) {
+    .pic1{
         display: none;
     }
 
@@ -103,7 +138,7 @@ nav {
 /* <!-- catagory section --> */
 
 
-.accessories{
+.accessories {
     margin: 60px 0 30px 0;
 }
 
@@ -141,15 +176,15 @@ nav {
 }
 
 .trending {
-    
+
     margin: 60px 0 60px 0;
-    font-family: 'Poppins',Arial, sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
 }
 
 .tp {
     text-align: center;
     font-weight: bold;
-   
+
 }
 
 .tp img {
@@ -286,6 +321,6 @@ nav {
 }
 
 /* footer Section  */
-.footerContent{
-    color: white !important;    
+.footerContent {
+    color: white !important;
 }
