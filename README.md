@@ -11,7 +11,7 @@ A Pet Shop website with full responsiveness.
 ![Screenshot (152)](https://github.com/SoumyaK2/pet-shop/assets/126533828/cfed142c-e163-4766-9334-4afe53d6390c)
 
 
-![Screenshot (153)](https://github.com/SoumyaK2/pet-shop/assets/126533828/780662f7-5ae1-462c-b1e6-e994a72f79b1)
+![Screenshot (157)](https://github.com/SoumyaK2/pet-shop/assets/126533828/fc7b186d-cd95-423e-a966-ffa8540a493d)
 
 
 ![Screenshot (154)](https://github.com/SoumyaK2/pet-shop/assets/126533828/dd67db2e-fed9-4c58-97ba-33c97ecd02cc)
